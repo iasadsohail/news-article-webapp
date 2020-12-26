@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main-section {
+    height: 100%;
+    padding-top: 10px;
+}
+
+.section {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-section {
+    margin-bottom: 50px;
+}
+
+.section-image-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.section-image {
+    width: 59%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-caption {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.section-button-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.section-button {
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.section-button:hover {
+    border: 1px solid royalblue;
+    background-color: white;
+    color: royalblue;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 10px 12px -5px grey;
+    -moz-box-shadow: 0px 10px 12px -5px grey;
+    box-shadow: 0px 10px 12px -5px grey;
+}
+
+.get-started-btn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.middle-section-container {
+    background-color: royalblue;
+    color: white;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.section-card {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: max-content;
+    background-color: transparent;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.card-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+
+/* MIDDLE SECTION MEDIA QUERY */
+@media only screen and (max-width: 700px) {
+    .middle-section {
+        flex-direction: column;
+    }
+}
+
+.join-us-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.join-us-button {
+    height: 40px;
+    width: 130px;
+}

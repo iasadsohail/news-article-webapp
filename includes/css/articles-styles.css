@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main-section {
+    height: max-content;
+    padding-top: 10px;
+}
+
+.article-section {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article-section-heading {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add-article-btn {
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: royalblue;
+    color: white;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filter-input {
+    height: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.filter-btn {
+    height: 30px;
+    border-radius: 3px;
+    color: white;
+    border: 1px solid white;
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    color: royalblue;
+    border: 1px solid royalblue;
+    background-color: white;
+}
+
+.add-article-btn:hover {
+    border: 1px solid royalblue;
+    background-color: white;
+    color: royalblue;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 10px 12px -5px grey;
+    -moz-box-shadow: 0px 10px 12px -5px grey;
+    box-shadow: 0px 10px 12px -5px grey;
+}
+
+.article-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 150px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(68, 68, 68, 0.6);
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* MEDIA QUERY FOR NAVBAR */
+
+@media only screen and (max-width: 700px) {
+    .article {
+        flex-direction: column;
+    }
+}
+
+.article-left-section {
+    width: 80%;
+}
+
+.article-right-section {
+    width: 20%;
+    text-align: center;
+}
+
+.article-action-btn {
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.article-edit-btn {
+    border: 1px solid royalblue;
+    background-color: white;
+    color: royalblue;
+}
+
+.article-view-btn {
+    border: 1px solid white;
+    background-color: royalblue;
+    color: white;
+}
+
+.article-delete-btn {
+    border: 1px solid white;
+    background-color: tomato;
+    color: white;
+}
+
+.no-article-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pagination-link {
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.pagination-link:hover {
+    background-color: white;
+    color: royalblue;
+    border: 1px solid royalblue;
+}
